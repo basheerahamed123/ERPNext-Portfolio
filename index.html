@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basheer Ahamed JR | ERPNext & Frappe Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Basheer Ahamed JR, ERPNext and Frappe Framework Developer specializing in custom DocTypes, Python backend automation, MariaDB, REST APIs, and enterprise ERP implementations.">
+  <meta name="keywords" content="Basheer Ahamed JR, ERPNext Developer, Frappe Developer, Python, MariaDB, Custom DocType, Bench, Chennai, ERP Automation">
+  <meta name="author" content="Basheer Ahamed JR">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Particle Background & Cyber Grid -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="cyber-grid"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-badge">&lt;BA /&gt;</span>
+        <span>Basheer Ahamed JR</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero"><i class="fas fa-user-circle" style="margin-right: 6px; color: var(--frappe-cyan);"></i>About</a></li>
+        <li><a href="#playground"><i class="fas fa-terminal" style="margin-right: 6px; color: var(--frappe-cyan);"></i>Playground</a></li>
+        <li><a href="#skills"><i class="fas fa-layer-group" style="margin-right: 6px; color: var(--frappe-cyan);"></i>Skills</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase" style="margin-right: 6px; color: var(--frappe-cyan);"></i>Experience</a></li>
+        <li><a href="#projects"><i class="fas fa-laptop-code" style="margin-right: 6px; color: var(--frappe-cyan);"></i>Projects</a></li>
+        <li><a href="#education"><i class="fas fa-certificate" style="margin-right: 6px; color: var(--frappe-cyan);"></i>Credentials</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope" style="margin-right: 6px; color: var(--frappe-cyan);"></i>Contact</a></li>
+        
+        <li class="mobile-only-action" style="margin-top: 16px; width: 100%;">
+          <a href="assets/Basheer_Ahamed_JR_Resume.pdf" download="Basheer_Ahamed_JR_Resume.pdf" class="btn btn-secondary" style="width: 100%; justify-content: center; margin-bottom: 10px;">
+            <i class="fas fa-file-download"></i> Download Resume
+          </a>
+          <a href="mailto:basheerahamedjr@gmail.com" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            <i class="fas fa-envelope"></i> Email Basheer
+          </a>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="assets/Basheer_Ahamed_JR_Resume.pdf" download="Basheer_Ahamed_JR_Resume.pdf" class="btn btn-secondary">
+          <i class="fas fa-file-download"></i> <span>Resume</span>
+        </a>
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> <span>Hire Me</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Available for ERPNext / Frappe Roles & Projects</span>
+          </div>
+
+          <h1>
+            Architecting Intelligent Workflows with <span class="gradient-text">Frappe & ERPNext</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Hi, I'm <strong>Basheer Ahamed JR</strong>. An ERPNext / Frappe Developer with 1+ year of professional experience engineering custom DocTypes, Python backend business logic, SQL analytics, and automated enterprise workflows.
+          </p>
+
+          <div class="hero-tech-tags">
+            <span class="tech-tag"><i class="fab fa-python" style="color: #38BDF8;"></i> Python</span>
+            <span class="tech-tag"><i class="fab fa-js-square" style="color: #FCD34D;"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fas fa-database" style="color: #34D399;"></i> MariaDB / SQL</span>
+            <span class="tech-tag"><i class="fas fa-cube" style="color: #00F0FF;"></i> Frappe ORM</span>
+            <span class="tech-tag"><i class="fas fa-terminal" style="color: #C084FC;"></i> Bench CLI</span>
+            <span class="tech-tag"><i class="fab fa-linux" style="color: #F87171;"></i> Linux & AWS</span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#playground" class="btn btn-primary">
+              <i class="fas fa-terminal"></i> Launch Bench Terminal
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <i class="fas fa-laptop-code"></i> View Projects
+            </a>
+            <a href="mailto:basheerahamedjr@gmail.com" class="btn btn-emerald">
+              <i class="fas fa-envelope"></i> Email Directly
+            </a>
+          </div>
+
+          <div class="quick-stats-row">
+            <div class="stat-item">
+              <h3>1+</h3>
+              <p>Years Enterprise ERP Experience</p>
+            </div>
+            <div class="stat-item">
+              <h3>6+</h3>
+              <p>ERPNext Modules Handled</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>Tailored Workflow Automation</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Photo Showcase Card -->
+        <div class="hero-profile-wrapper">
+          <div class="hero-profile-card">
+            <div class="photo-container">
+              <img src="assets/images/basheer-photo.jpg" alt="Basheer Ahamed JR - ERPNext / Frappe Developer" loading="lazy">
+              
+              <div class="photo-badge-floating">
+                <div>
+                  <div class="badge-text-title">Basheer Ahamed JR</div>
+                  <div class="badge-text-sub"><i class="fas fa-code-branch"></i> ERP & Frappe Engineer</div>
+                </div>
+                <div class="tech-icon-orbit">
+                  <div class="orbit-icon" title="Frappe Framework"><i class="fas fa-layer-group"></i></div>
+                  <div class="orbit-icon" title="Python"><i class="fab fa-python"></i></div>
+                  <div class="orbit-icon" title="MariaDB"><i class="fas fa-database"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Frappe Playground Section -->
+  <section class="playground-section" id="playground">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Interactive Demonstration</span>
+        <h2>Frappe Engine & <span class="gradient-text">DocType State Machine</span></h2>
+        <p>Interact with the live simulated Frappe Bench CLI and explore the step-by-step workflow state machine for custom ERP implementations.</p>
+      </div>
+
+      <div class="playground-grid">
+        <!-- Interactive Terminal -->
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="terminal-title">bash — frappe-bench@frappe-v15:~</div>
+            <div><i class="fas fa-cog" style="color: #64748b; font-size: 0.8rem;"></i></div>
+          </div>
+
+          <div class="terminal-body" id="terminal-output">
+            <div class="terminal-line">
+              <span class="terminal-success">Welcome to Basheer's Interactive Frappe Environment v15.0</span>
+            </div>
+            <div class="terminal-line">
+              Type <span class="terminal-accent">help</span> or click the quick commands below to explore.
+            </div>
+            <div class="terminal-line" style="margin-top: 10px;">
+              <span class="terminal-prompt">frappe@bench:~$</span> <span class="terminal-cmd">bench whoami</span>
+            </div>
+            <div class="terminal-output">
+              --------------------------------------------------<br>
+              <span class="terminal-success">BASHEER AHAMED JR</span> — ERPNext / Frappe Developer<br>
+              Location : Chennai, India<br>
+              Specialty : Custom DocTypes, Workflow Automation, MariaDB, Python & REST APIs<br>
+              --------------------------------------------------
+            </div>
+          </div>
+
+          <div class="terminal-quick-cmds">
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">Quick Commands:</span>
+            <button class="quick-cmd-btn" data-cmd="bench status">bench status</button>
+            <button class="quick-cmd-btn" data-cmd="bench list-apps">bench list-apps</button>
+            <button class="quick-cmd-btn" data-cmd="bench skills">bench skills</button>
+            <button class="quick-cmd-btn" data-cmd="bench projects">bench projects</button>
+            <button class="quick-cmd-btn" data-cmd="bench run-tests">bench run-tests</button>
+            <button class="quick-cmd-btn" data-cmd="bench contact">bench contact</button>
+            <button class="quick-cmd-btn" data-cmd="clear">clear</button>
+          </div>
+
+          <div style="padding: 10px 16px; background: #070a12; display: flex; align-items: center; gap: 8px; border-top: 1px solid rgba(255,255,255,0.05);">
+            <span class="terminal-prompt" style="font-family: var(--font-mono); font-size: 0.85rem;">frappe@bench:~$</span>
+            <input type="text" id="terminal-input" class="terminal-input" placeholder="Type a bench command (e.g. bench status)..." autocomplete="off">
+          </div>
+        </div>
+
+        <!-- Live DocType Visualizer -->
+        <div class="glass-panel doctype-card">
+          <div>
+            <div class="doctype-header">
+              <div>
+                <div class="doctype-name">
+                  <i class="fas fa-motorcycle" style="color: var(--frappe-cyan);"></i>
+                  <span>DocType: Bike Service Entry</span>
+                </div>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Custom Workflow Automation Engine</span>
+              </div>
+              <span class="module-badge">Module: Service</span>
+            </div>
+
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 14px;">
+              Click through each phase of the ERP lifecycle to see how DocType hooks, child tables, and role-based permissions interact:
+            </p>
+
+            <div class="workflow-steps-track">
+              <div class="workflow-step active" data-step="0">
+                <span class="step-num">1</span>
+                <div class="step-info">
+                  <h4>Customer Intake</h4>
+                  <p>Service Request & Chassis validation</p>
+                </div>
+              </div>
+
+              <div class="workflow-step" data-step="1">
+                <span class="step-num">2</span>
+                <div class="step-info">
+                  <h4>Inspection & Checklist</h4>
+                  <p>Child table digital inspection report</p>
+                </div>
+              </div>
+
+              <div class="workflow-step" data-step="2">
+                <span class="step-num">3</span>
+                <div class="step-info">
+                  <h4>Job Card & Parts Allocation</h4>
+                  <p>Warehouse reservation & technician hook</p>
+                </div>
+              </div>
+
+              <div class="workflow-step" data-step="3">
+                <span class="step-num">4</span>
+                <div class="step-info">
+                  <h4>Active Repair & Labor</h4>
+                  <p>Shift time logs & parts ledger updates</p>
+                </div>
+              </div>
+
+              <div class="workflow-step" data-step="4">
+                <span class="step-num">5</span>
+                <div class="step-info">
+                  <h4>QA & Road Test</h4>
+                  <p>Checklist sign-off & supervisor verification</p>
+                </div>
+              </div>
+
+              <div class="workflow-step" data-step="5">
+                <span class="step-num">6</span>
+                <div class="step-info">
+                  <h4>Sales Invoice & Gate Pass</h4>
+                  <p>Automated accounts ledger & QR generation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="workflow-action-box" id="workflow-active-detail">
+            <!-- Dynamically populated by app.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix Section -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Competence</span>
+        <h2>Core <span class="gradient-text">Skills & Tech Stack</span></h2>
+        <p>Comprehensive expertise across Frappe framework internals, ERPNext core modules, backend architecture, and infrastructure management.</p>
+      </div>
+
+      <div class="skills-categories-grid">
+        <!-- Frappe & ERPNext -->
+        <div class="glass-panel skill-category-card">
+          <div class="category-title">
+            <div class="category-icon"><i class="fas fa-cubes"></i></div>
+            <div>
+              <h3>ERP & Frappe Framework</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Core development & customization</p>
+            </div>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="skill-pill"><i class="fas fa-star star"></i> Frappe Framework</span>
+            <span class="skill-pill"><i class="fas fa-star star"></i> ERPNext Customization</span>
+            <span class="skill-pill">Custom DocTypes & Child Tables</span>
+            <span class="skill-pill">Frappe ORM & Document Hooks</span>
+            <span class="skill-pill">Server & Client Scripts</span>
+            <span class="skill-pill">Workflow Engine & Approvals</span>
+            <span class="skill-pill">Jinja Print Formats</span>
+            <span class="skill-pill">Custom SQL Reports & Query Reports</span>
+            <span class="skill-pill">Frappe REST APIs & Webhooks</span>
+          </div>
+        </div>
+
+        <!-- ERPNext Functional Domains -->
+        <div class="glass-panel skill-category-card">
+          <div class="category-title">
+            <div class="category-icon"><i class="fas fa-sitemap"></i></div>
+            <div>
+              <h3>ERPNext Functional Modules</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Business domains configured & automated</p>
+            </div>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="skill-pill"><i class="fas fa-file-invoice-dollar" style="color: #34D399;"></i> Accounting & Finance</span>
+            <span class="skill-pill"><i class="fas fa-shopping-cart" style="color: #38BDF8;"></i> Procurement & Buying</span>
+            <span class="skill-pill"><i class="fas fa-chart-line" style="color: #F59E0B;"></i> Sales & CRM</span>
+            <span class="skill-pill"><i class="fas fa-warehouse" style="color: #A78BFA;"></i> Inventory & Stock</span>
+            <span class="skill-pill"><i class="fas fa-industry" style="color: #F87171;"></i> Manufacturing & BOM</span>
+            <span class="skill-pill"><i class="fas fa-tools" style="color: #00F0FF;"></i> Service Management & Job Cards</span>
+          </div>
+        </div>
+
+        <!-- Backend & Databases -->
+        <div class="glass-panel skill-category-card">
+          <div class="category-title">
+            <div class="category-icon"><i class="fas fa-code"></i></div>
+            <div>
+              <h3>Programming & Databases</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Languages, DB & query optimization</p>
+            </div>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="skill-pill"><i class="fab fa-python" style="color: #38BDF8;"></i> Python</span>
+            <span class="skill-pill"><i class="fab fa-js" style="color: #FCD34D;"></i> JavaScript (ES6+)</span>
+            <span class="skill-pill"><i class="fas fa-database" style="color: #34D399;"></i> MariaDB</span>
+            <span class="skill-pill"><i class="fas fa-table" style="color: #38BDF8;"></i> SQL Query Optimization</span>
+            <span class="skill-pill"><i class="fab fa-java" style="color: #F87171;"></i> Java</span>
+            <span class="skill-pill"><i class="fab fa-html5" style="color: #FB923C;"></i> HTML5 & CSS3</span>
+          </div>
+        </div>
+
+        <!-- DevOps, Tools & Cloud -->
+        <div class="glass-panel skill-category-card">
+          <div class="category-title">
+            <div class="category-icon"><i class="fas fa-server"></i></div>
+            <div>
+              <h3>DevOps, Cloud & Tooling</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Server setup, deployments & CI/CD</p>
+            </div>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="skill-pill"><i class="fas fa-terminal" style="color: #00F0FF;"></i> Bench CLI Administration</span>
+            <span class="skill-pill"><i class="fab fa-linux" style="color: #FCD34D;"></i> Linux (Ubuntu Server)</span>
+            <span class="skill-pill"><i class="fab fa-aws" style="color: #FB923C;"></i> AWS EC2 & S3 Basics</span>
+            <span class="skill-pill"><i class="fab fa-git-alt" style="color: #F87171;"></i> Git & GitHub</span>
+            <span class="skill-pill"><i class="fas fa-laptop-code" style="color: #38BDF8;"></i> VS Code</span>
+            <span class="skill-pill"><i class="fab fa-jira" style="color: #60A5FA;"></i> Jira & Agile Workflows</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Career History</span>
+        <h2>Professional <span class="gradient-text">Experience</span></h2>
+        <p>Proven track record of engineering ERPNext modules, developing business automation, and supporting production systems.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Role 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-panel timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-role">Junior ERPNext Developer</span>
+              <span class="timeline-date">May 2026 – Present</span>
+            </div>
+            <div class="timeline-company">
+              <i class="fas fa-building" style="color: var(--frappe-cyan);"></i> SLK Group Solutions Delivered
+            </div>
+            <ul class="timeline-bullets">
+              <li>Develop and maintain scalable ERPNext applications and custom business workflows tailored to organizational needs.</li>
+              <li>Customize ERPNext modules, custom DocTypes, forms, client validations, and backend logic using Python and JavaScript.</li>
+              <li>Engineer custom reports and SQL-based analytics to empower business and executive decision-making.</li>
+              <li>Implement accounting and procurement-related customizations, automated approval hierarchies, and finance logic.</li>
+              <li>Conduct ERP server maintenance, bench configuration, production troubleshooting, and user support.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-panel timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-role">Graduate Engineer Trainee / ERP Developer</span>
+              <span class="timeline-date">April 2025 – May 2026</span>
+            </div>
+            <div class="timeline-company">
+              <i class="fas fa-industry" style="color: #34D399;"></i> Pontus Pack Private Limited
+            </div>
+            <ul class="timeline-bullets">
+              <li>Engineered custom ERPNext modules for manufacturing, inventory tracking, service operations, and business workflows.</li>
+              <li>Built custom DocTypes, child tables, validations, workflows, and granular role-based permissions using Frappe Framework.</li>
+              <li>Developed service management systems including service requests, vehicle inspections, job cards, parts usage, and billing.</li>
+              <li>Streamlined document-level automation across ERPNext transactions, reducing manual entry errors.</li>
+              <li>Supported production users, resolved functional/technical bottlenecks, and optimized SQL queries for high-volume inventory.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-panel timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-role">Software Development Engineer Intern</span>
+              <span class="timeline-date">July 2023 – August 2023</span>
+            </div>
+            <div class="timeline-company">
+              <i class="fas fa-laptop-code" style="color: #A78BFA;"></i> Yangoos Technology
+            </div>
+            <ul class="timeline-bullets">
+              <li>Developed modular components and interactive features for an e-commerce web platform.</li>
+              <li>Assisted in front-end UI enhancements, responsive styling, bug fixes, and data verification.</li>
+              <li>Practiced collaborative version control with Git and GitHub within an agile team setting.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Key Implementations</span>
+        <h2>Featured <span class="gradient-text">Projects & Systems</span></h2>
+        <p>A selection of custom ERP applications and software systems built with high reliability and scalable architecture.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="glass-panel project-card">
+          <div>
+            <div class="project-top">
+              <i class="fas fa-motorcycle project-folder-icon"></i>
+              <div class="project-links">
+                <span class="module-badge">Flagship ERP App</span>
+              </div>
+            </div>
+            <h3>Bike Service Management ERP</h3>
+            <p>
+              An end-to-end service management solution built on Frappe and ERPNext that digitizes vehicle intake, multi-point digital inspection checklists, job cards, live parts consumption, technician assignments, and cashier billing.
+            </p>
+            <div class="project-highlights">
+              <strong>Key Highlights:</strong> Custom DocTypes & Child Tables, Role-based field security (Advisors, Inspectors, Technicians, Cashiers), automated stock ledger deductions, and real-time status dashboards.
+            </div>
+          </div>
+          <div class="project-tech-stack">
+            <span class="project-tech-pill">Frappe v15</span>
+            <span class="project-tech-pill">ERPNext</span>
+            <span class="project-tech-pill">Python</span>
+            <span class="project-tech-pill">JavaScript</span>
+            <span class="project-tech-pill">MariaDB</span>
+            <span class="project-tech-pill">Workflows</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glass-panel project-card">
+          <div>
+            <div class="project-top">
+              <i class="fas fa-file-invoice-dollar project-folder-icon" style="color: #34D399;"></i>
+              <div class="project-links">
+                <span class="module-badge">Enterprise Module</span>
+              </div>
+            </div>
+            <h3>Procurement & Accounting Automation</h3>
+            <p>
+              Custom business logic engine extending ERPNext's Buying and Accounts modules with automated purchase order validations, vendor quotation comparisons, multi-tier manager approval flows, and accounting reconciliations.
+            </p>
+            <div class="project-highlights">
+              <strong>Key Highlights:</strong> Document hooks for real-time budget verification, custom SQL query reports for executive summaries, and Jinja-based dynamic invoice print formats.
+            </div>
+          </div>
+          <div class="project-tech-stack">
+            <span class="project-tech-pill">Frappe ORM</span>
+            <span class="project-tech-pill">Accounts & Buying</span>
+            <span class="project-tech-pill">SQL Optimization</span>
+            <span class="project-tech-pill">Jinja2</span>
+            <span class="project-tech-pill">REST APIs</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="glass-panel project-card">
+          <div>
+            <div class="project-top">
+              <i class="fas fa-industry project-folder-icon" style="color: #F59E0B;"></i>
+              <div class="project-links">
+                <span class="module-badge">Manufacturing</span>
+              </div>
+            </div>
+            <h3>Manufacturing & Inventory Workflow Customizer</h3>
+            <p>
+              Tailored manufacturing ERP system handling Bill of Materials (BOM) multi-level tracking, automated stock reservation in target warehouses, and real-time scrap reduction monitoring for Pontus Pack production lines.
+            </p>
+            <div class="project-highlights">
+              <strong>Key Highlights:</strong> Custom client scripts for rapid batch barcode scanning, automated material transfer entries, and document status validations.
+            </div>
+          </div>
+          <div class="project-tech-stack">
+            <span class="project-tech-pill">Manufacturing</span>
+            <span class="project-tech-pill">Stock Ledger</span>
+            <span class="project-tech-pill">Client Scripts</span>
+            <span class="project-tech-pill">Python Hooks</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="glass-panel project-card">
+          <div>
+            <div class="project-top">
+              <i class="fas fa-brain project-folder-icon" style="color: #C084FC;"></i>
+              <div class="project-links">
+                <span class="module-badge">AI / Machine Learning</span>
+              </div>
+            </div>
+            <h3>Sign Language Recognition System</h3>
+            <p>
+              A real-time computer vision and machine learning application that detects hand gestures via live webcam feed and translates them instantly into textual characters and words.
+            </p>
+            <div class="project-highlights">
+              <strong>Key Highlights:</strong> Trained deep learning neural network on labeled gesture datasets using TensorFlow, with OpenCV for real-time video stream processing and low-latency inference.
+            </div>
+          </div>
+          <div class="project-tech-stack">
+            <span class="project-tech-pill">Python</span>
+            <span class="project-tech-pill">TensorFlow</span>
+            <span class="project-tech-pill">OpenCV</span>
+            <span class="project-tech-pill">Computer Vision</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications Section -->
+  <section class="edu-cert-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2>Education & <span class="gradient-text">Certifications</span></h2>
+        <p>Strong academic foundation in Computer Science supplemented by full-stack software development training.</p>
+      </div>
+
+      <div class="edu-cert-grid">
+        <!-- Education Card -->
+        <div class="glass-panel" style="padding: 28px;">
+          <div class="category-title">
+            <div class="category-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div>
+              <h3>Academic Background</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Engineering & Schooling</p>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="border-left: 2px solid var(--frappe-cyan); padding-left: 16px;">
+              <div style="font-size: 1.1rem; font-weight: 700; color: #fff;">B.E. Computer Science and Engineering</div>
+              <div style="color: var(--frappe-cyan); font-size: 0.9rem; font-weight: 600;">Arunai Engineering College</div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono); margin-top: 2px;">2020 – 2024 • CGPA: 8.24 / 10</div>
+            </div>
+
+            <div style="border-left: 2px solid rgba(255,255,255,0.2); padding-left: 16px;">
+              <div style="font-size: 1rem; font-weight: 700; color: #e2e8f0;">Higher Secondary Certificate (HSC)</div>
+              <div style="color: var(--text-secondary); font-size: 0.85rem;">Sri VDS Jain Higher Secondary School</div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono); margin-top: 2px;">2019 – 2020 • 68.8%</div>
+            </div>
+
+            <div style="border-left: 2px solid rgba(255,255,255,0.2); padding-left: 16px;">
+              <div style="font-size: 1rem; font-weight: 700; color: #e2e8f0;">Secondary School Leaving Certificate (SSLC)</div>
+              <div style="color: var(--text-secondary); font-size: 0.85rem;">Sri VDS Jain Higher Secondary School</div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono); margin-top: 2px;">2017 – 2018 • 87.0%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications & Honors Card -->
+        <div class="glass-panel" style="padding: 28px;">
+          <div class="category-title">
+            <div class="category-icon" style="background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.4);"><i class="fas fa-award" style="color: #F59E0B;"></i></div>
+            <div>
+              <h3>Certifications & Honors</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Verified skills & recognitions</p>
+            </div>
+          </div>
+
+          <div class="achievement-badge">
+            <div class="badge-icon"><i class="fas fa-certificate"></i></div>
+            <div>
+              <h4 style="font-size: 1rem; font-weight: 700; color: #fff;">Java Full Stack Development</h4>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">JSpiders, Bangalore (2024)</p>
+              <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">In-depth training in core Java, SQL database architecture, web technologies, and backend microservices.</p>
+            </div>
+          </div>
+
+          <div class="achievement-badge">
+            <div class="badge-icon"><i class="fas fa-trophy" style="color: #F59E0B;"></i></div>
+            <div>
+              <h4 style="font-size: 1rem; font-weight: 700; color: #fff;">Best Performer of the Batch</h4>
+              <p style="font-size: 0.85rem; color: #F59E0B;">Titans LeAP</p>
+              <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">Awarded top honors for exceptional problem-solving, clean code delivery, and leadership in software challenges.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Let's Build Something <span class="gradient-text">Exceptional</span></h2>
+        <p>Looking for a dedicated ERPNext / Frappe developer for full-time opportunities, custom app development, or workflow automation? Let's talk!</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div>
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; color: #fff;">Get in Touch</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 24px;">
+            I am available for full-time opportunities, custom Frappe app development, and ERP consulting. Reach out directly via email or LinkedIn:
+          </p>
+
+          <div class="contact-info-list">
+            <a href="mailto:basheerahamedjr@gmail.com" class="contact-info-card">
+              <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+              <div style="flex-grow: 1;">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Primary Email</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">basheerahamedjr@gmail.com</div>
+              </div>
+              <button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.75rem;" onclick="event.preventDefault(); copyText('basheerahamedjr@gmail.com', 'Email');">
+                <i class="far fa-copy"></i>
+              </button>
+            </a>
+
+            <a href="https://www.linkedin.com/in/basheer-ahamed-jr-996479284/" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+              <div class="contact-icon-box" style="background: rgba(0, 119, 181, 0.15); color: #0077B5;"><i class="fab fa-linkedin-in"></i></div>
+              <div style="flex-grow: 1;">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">LinkedIn Profile</div>
+                <div style="font-weight: 600; font-size: 0.95rem; color: #38BDF8;">linkedin.com/in/basheer-ahamed-jr &rarr;</div>
+              </div>
+            </a>
+
+            <a href="https://github.com/basheerahamed123" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+              <div class="contact-icon-box" style="background: rgba(255, 255, 255, 0.08); color: #fff;"><i class="fab fa-github"></i></div>
+              <div style="flex-grow: 1;">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">GitHub Profile</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">github.com/basheerahamed123 &rarr;</div>
+              </div>
+            </a>
+
+            <div class="contact-info-card">
+              <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Current Base</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">Chennai, Tamil Nadu, India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="glass-panel" style="padding: 32px;">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 20px; color: #fff;">
+            <i class="fas fa-envelope-open-text" style="color: var(--frappe-cyan); margin-right: 8px;"></i>
+            Send a Message
+          </h3>
+
+          <form id="portfolio-contact-form" action="https://formspree.io/f/xzezyvor" method="POST">
+            <div class="form-group">
+              <label for="sender-name">Your Name</label>
+              <input type="text" id="sender-name" name="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email">Your Email</label>
+              <input type="email" id="sender-email" name="email" class="form-control" placeholder="e.g. rahul@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-service">Project / Inquiry Type</label>
+              <select id="sender-service" name="service" class="form-control">
+                <option value="ERPNext Customization">ERPNext Customization & Automation</option>
+                <option value="Frappe Custom App">New Custom Frappe App Development</option>
+                <option value="Full-Time Hiring">Full-Time / Contract Hiring</option>
+                <option value="Integration & APIs">API Integration & Reports</option>
+                <option value="Other">Other Query</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-msg">Message / Requirements</label>
+              <textarea id="sender-msg" name="message" class="form-control" placeholder="Tell me about your ERP needs, timeline, or job description..." required></textarea>
+            </div>
+
+            <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 14px;">
+              <i class="fas fa-paper-plane"></i> Send Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span class="logo-badge">&lt;BA /&gt;</span>
+          <span style="font-weight: 700; color: #fff;">Basheer Ahamed JR</span>
+          <span style="color: var(--text-muted); font-size: 0.85rem;">| ERPNext & Frappe Developer</span>
+        </div>
+
+        <div class="footer-credits">
+          Crafted with <i class="fas fa-heart" style="color: #EF4444;"></i> for the Frappe Ecosystem &bull; © 2026 Basheer Ahamed JR
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <a href="https://www.linkedin.com/in/basheer-ahamed-jr-996479284/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" title="LinkedIn">
+            <i class="fab fa-linkedin-in" style="color: #0077B5;"></i>
+          </a>
+          <a href="https://github.com/basheerahamed123" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#hero" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+            <i class="fas fa-arrow-up"></i> Top
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
